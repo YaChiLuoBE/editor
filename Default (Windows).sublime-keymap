@@ -10,4 +10,59 @@ C:\Users\psoft\AppData\Roaming\Sublime Text 3\Packages\User
 	{ "keys": ["ctrl+w"], "command": "find_under_expand" },
 	{ "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
 	{ "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["f5"], "command": "build", "args": {"select": true} },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["alt+shift+a"], "command": "toggle_comment", "args": { "block": true } },
+	{
+		"keys": ["ctrl+\\"],
+		"command": "set_layout",
+		"args":
+		{
+			"cols": [0.0, 0.5, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+		}
+	},
 ]
+
+C:\Users\psoft\AppData\Roaming\Sublime Text 3\Packages\Material Theme\Material-Theme-Darker.sublime-theme
+// Bullet Tree Indicator
+
+{
+	"class": "sidebar_label",
+	"color": [255, 0, 204], //alter sidebar color
+	"font.bold": false,
+	"font.italic": false,
+	"shadow_color": [255, 255, 255, 0],
+	"shadow_offset": [0, 0],
+	"font.size": 18 //add this line
+},
+
+// Tab Labels
+  
+{
+	"class": "tab_label",
+	"fg": [97, 97, 97, 255],
+	"shadow_color": [255, 255, 255, 0],
+	"shadow_offset": [0, 0],
+	"font.size": 18, //add this line
+	"font.italic": false,
+	"font.bold": false
+},
+
+// Package Install
+	A File Icon
+	ChineseLocalizations
+	Color Highlight
+	Emmet
+	Git
+	Material Theme
+	Package Control
+	Predawn
+	Python 3
+	RainbowBrackets
+	SublimeLinter
+	Trimmer
+	Visual Studio Bold Color Scheme
+	Auto​PEP8
+	Pretty JSON //Ctrl+Alt+J
